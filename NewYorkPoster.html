@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>NewYorkPoster</title>
+ <style type="text/css">
+
+    html {   
+      background-image: url("bk.jpg");
+      background-size: cover;
+      background-position: center 6px ;
+    }
+
+    body { 
+      font-family: 'Roboto Slab', Sans-serif;
+      font-size:1.8vw;
+      color:whitesmoke;
+    }
+        
+    p{
+      position: absolute;
+      bottom: 0;  
+      margin-bottom: 0.4vw;
+    }
+    
+    #row2b{
+      text-align:right;
+      text-transform: uppercase;
+    }
+
+    #row2b > p{
+      font-family: 'Rozha One', Sans-serif;
+      position: relative;
+      font-size: 5vw;
+    }
+
+    #row2b > p:nth-child(1){
+      margin-top: 5vw;
+    }
+
+    #row2b > p:nth-child(2){
+      margin-top: -1vw;
+      font-size: 7.5vw;
+    }
+  
+    #row13c{
+      text-align: right;
+      text-transform: uppercase;
+    }
+
+    #row13c > p{
+      font-family: 'Rozha One',Sans-serif;
+      position: relative;
+      font-size: 1.3vw;
+    }
+
+    #rowb{
+      text-align:left;
+      font-family: 'Rozha One', Sans-serif;
+      text-transform: uppercase;
+      position: relative;
+      font-size: 3vw;
+    }
+
+    #row13d{
+      text-align:left;
+      text-transform: uppercase;
+    }
+
+    #row13d > p{
+      font-family: 'Rozha One',Sans-serif;
+      position: relative;
+      font-size: 1.3vw;
+    }
+
+    #row2c{
+      text-align:left;
+      font-family: 'Rozha One', Sans-serif;
+      text-transform: uppercase;
+      position: relative;
+      font-size: 5vw;
+    }
+
+    #grid {
+      display: grid;
+      grid-gap: 6px; 
+      grid-template-rows: 11vw;
+      grid-auto-rows: 9vw;
+      grid-template-columns: 3fr repeat(6, 3fr) 3fr;
+    }
+    
+    #grid > div{
+      position: relative;
+      background-color:black;
+      outline-style:initial;
+      outline-color:white;
+      outline-width: 1px;  
+    }
+    
+    div#rowc,div#rowb,div#row4{
+      background-color:rgba(64,67,78,0.2);
+    }
+    
+    #rowc{
+      grid-column-end: span 3;
+    }
+    div#rowb, div#row2b,div#row2c, div#rowb,div#row13c,div#row13d{
+      grid-column-end: span 2;
+    }
+    div#row2b,div#row2c,div#row13c,div#row13d{
+      grid-row-end: span 2;
+    }
+    
+    #filler {
+      width: 100vw;
+      height: 30vw;
+      background-color:#ff0;
+      margin-left: -1vw;
+    }
+</style>
+
+</head>
+ <body>
+    
+ <div id="grid">
+    <!-- row0 -->
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    <!-- row1 -->
+      <div></div>
+      <div></div>
+      <div id="rowc"></div>
+      <div id="rowb"><p>TIMES SQUARE</p></div>
+      <div></div>
+    <!-- row2 -->
+      <div></div>
+      <div></div>
+      <div id="row2b"><p>NEW</p><p>YORK</p></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    <!-- row3 -->
+      <div></div>
+      <div id="rowb"></div>
+      <div></div>
+      <div></div>
+    <!-- row4 -->
+      <div></div>
+      <div></div>
+      <div></div>
+      <div id="row4"></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    <!-- row5 -->
+      <div></div>
+      <div id="rowc"></div>
+      <div id="row2c"><p>CITY</p></div>
+      <div></div>
+      <div></div>
+    <!-- row6 -->
+      <div></div>
+      <div></div>
+     <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    <!-- row7 -->
+      <div></div>
+      <div id="rowb"></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div ></div>
+      <div></div>
+    <!-- row8 -->
+      <div ></div>
+      <div></div>
+      <div ></div>
+      <div></div>
+      <div id="rowb"></div>
+      <div></div>
+      <div></div>
+    <!-- row9 -->
+      <div></div>
+      <div id="row13c"><p>Formerly known as Longacre Square, Times Square was renamed in 1904 after The New York Times moved its headquarters to the then newly erected Times Building, now One Times Square. It is the site of the annual New Year's Eve ball drop, which began on December 31, 1907.</p></div>
+      <div></div>
+      <div></div> 
+      <div></div>
+      <div></div>
+      <div></div>
+    <!-- row10 -->
+      <div></div>
+      <div id="rowb"></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    <!-- row11 -->
+      <div></div>
+      <div></div>
+      <div id="rowb"></div>
+      <div id="row13d"><p>Times Square is a busy intersection of art and commerce, where scores of advertisements – electric, neon and illuminated signs and "zipper" news crawls – vie for viewers' attention.  </p></div> 
+      <div></div>
+      <div></div>
+    <!-- row12 -->
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>  
+    <!-- row13 -->
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div id="rowb"></div>
+      <div></div>
+      <div></div>
+    <!-- row14 -->
+      <div></div>
+      <div id="rowb"></div>
+      <div id="row13d"><p>Times Square is the site of the annual New Year's Eve ball drop. About one million revelers crowd Times Square for the New Year's Eve celebrations, more than twice the usual number of visitors the area usually receives daily.</p></div>
+      <div></div>
+      <div></div>
+    <!-- row15 -->
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+     <!-- row16 -->
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+     <!-- row17 -->
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+  
+</body>
+</html>
