@@ -1,5 +1,5 @@
 # Poster
-# GitHub URL：
+# GitHub URL
 
 https://github.com/zttyZZZ/Poster
 
