@@ -1,31 +1,30 @@
 # Poster
-
-GitHub URL :
+# GitHub URL：
 
 https://github.com/zttyZZZ/Poster
 
-Deployment URL:
+# Deployment URL 
 
 https://zttyzzz-poster.glitch.me/NewYorkPoster.html
 
-ABOUT
+# ABOUT
 
 This application  is more about the Poster of Times Square.
 
-BUILT WITH
+# BUILT WITH
 
 It developed by html, CSS and some media art assets.
 
-AUTHOR
+# AUTHOR
 
 Tingyu Zhang
 
-NOTES
+# NOTES
 
 I think it is quite important to plan before writing. Maybe it could be better to write the form of the page at first and then fill the contents.
 
 
-REFERENCES
+# REFERENCES
 
 This reference is more about how to develop the grid.
 https://www.w3schools.com/css/css_grid.asp
