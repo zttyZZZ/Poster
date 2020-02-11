@@ -19,9 +19,13 @@ It developed by html, CSS and some media art assets.
 
 Tingyu Zhang
 
+# DESIGN
+
+Started from finding some basic grid shapes. I applied the Times Square at back and used the gird to created the "woven" patterns on the front. And I did the diagram for what I expected. 
+
 # NOTES
 
-I think it is quite important to plan before writing. Maybe it could be better to write the form of the page at first and then fill the contents.
+I spend sometimes to orgainized my grid and I also adjust that during I made. 
 
 
 # REFERENCES
